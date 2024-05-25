@@ -14,7 +14,7 @@
 // ('/', 15, 3) --> 5
 
 
-let firstValue = parseFloat(prompt("Digite primer valorr: "));
+let firstValue = parseFloat(prompt("Digite primer valor: "));
 let secondValue = parseFloat (prompt("Digite segundo valor: "));
 let operator = prompt("Digite el operador de la funcionque dese realizar:  ");
 
@@ -41,7 +41,7 @@ function operation( operator, firstValue, secondValue ) {
 
         default:
 
-          resultado = "Indefinido dado que el operador no indica una operación a realizar."
+          resultado = "Indefinido dado que el operador no indica una operacion a realizar."
     }
    
     return resultado;

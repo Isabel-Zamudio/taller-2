@@ -4,7 +4,7 @@
 
 // Entre 4.8 <= 5.0	                E   =   Excelente
 // Entre 4.5 <  4.8	                MB  =   Muy bueno
-// Entre 4.0 <  4.4  	            B   =   Bueno
+// Entre 4.0 <  4.4                 B   =   Bueno
 // Entre 3.5 <  4.0	                A   =   Aprobado
 // Entre 0   <  3.5	                R   =   Reprobado
 
@@ -27,8 +27,9 @@ function funcionSuma(cantNotas) {
         }
         console.log("La suma es de " + suma);
         return suma;
-    } else {
-        console.log("Número inválido");
+    } 
+    else {
+        console.log("Numero invalido");
         return null;
     }
 }
